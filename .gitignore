@@ -1,0 +1,51 @@
+# Executable files
+*.exe
+*.out
+*.app
+
+# Object files
+*.o
+*.obj
+*.ko
+*.so
+*.so.*
+*.a
+*.lib
+
+# Precompiled headers
+*.gch
+*.pch
+
+# Compiled files
+*.class
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Build directories
+bin/
+obj/
+build/
+dist/
+
+# Temporary files
+*.tmp
+*.bak
+*.backup
+temp/
+
+# Output directories
+output/
+logs/
+
+# Session state
+.copilot/
+session-state/
+
+# JSON analysis files
+*.json
