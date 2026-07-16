@@ -1,25 +1,35 @@
 #include <stdio.h>
-int main(){
+
+int main() {
     int t;
-    scanf("%d",&t);
-    int answers[t];
-     int n;
-    int arr[100];
-    
-      
-    for(int i=0;i<t;i++){
-     
-      scanf("%d",&n);
-      scanf("%d",&arr[i]);
+    scanf("%d", &t);
+
+    while (t--) {
+        int n;
+        scanf("%d", &n);
+
+        long long a[n];
+
+        for (int i = 0; i < n; i++) {
+            scanf("%lld", &a[i]);
+        }
+
+        int possible = 1;
+
+        for (int i = 0; i < n - 1; i++) {
+            if (a[i] < i + 1) {
+                possible = 0;
+                break;
+            }
+
+            a[i + 1] += a[i] - (i + 1);
+        }
+
+        if (possible)
+            printf("YES\n");
+        else
+            printf("NO\n");
     }
-      for(int j=0;j<n;j++){
-        if(arr[j]>arr[j+1]&&arr[j+1]>arr[j+2]){
-            printf("yes");
-            break;
-        }
-        else{
-            printf("No");
-        }
-      }
-    
+
+    return 0;
 }
