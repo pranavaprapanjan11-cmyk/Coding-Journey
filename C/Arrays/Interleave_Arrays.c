@@ -6,7 +6,6 @@ int main() {
 
     int a[n], b[n];
 
-    
     for(int i = 0; i < n; i++) {
         scanf("%d", &a[i]);
     }
@@ -15,7 +14,6 @@ int main() {
         scanf("%d", &b[i]);
     }
 
-    
     for(int i = 0; i < n; i++) {
         printf("%d ", a[i]);
         printf("%d ", b[n - 1 - i]);

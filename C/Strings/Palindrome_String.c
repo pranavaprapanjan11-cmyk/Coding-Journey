@@ -7,8 +7,6 @@ int main(){
 
     fgets(str, sizeof(str), stdin);
 
-   
-
     length = strlen(str);
 
     for(int i = 0; i < length/2; i++){

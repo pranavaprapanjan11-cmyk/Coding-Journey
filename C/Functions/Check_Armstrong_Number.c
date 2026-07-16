@@ -8,7 +8,6 @@ int main() {
     scanf("%d", &num);
     temp = num;
 
-    
     while (temp != 0) {
         count++;
         temp = temp / 10;
@@ -16,7 +15,6 @@ int main() {
 
     temp = num;
 
-   
     while (temp != 0) {
         digit = temp % 10;
         arm = arm + pow(digit, count);

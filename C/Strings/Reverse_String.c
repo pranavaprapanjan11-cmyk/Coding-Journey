@@ -6,7 +6,6 @@ int main() {
     int i, len;
     char temp;
 
-   
     scanf("%s", str);
 
     len = strlen(str);

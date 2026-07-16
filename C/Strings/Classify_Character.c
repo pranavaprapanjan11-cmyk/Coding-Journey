@@ -3,7 +3,6 @@
 int main() {
     char ch;
 
-   
     scanf(" %c", &ch);
 
     if((ch >= 'A' && ch <= 'Z') || (ch >= 'a' && ch <= 'z')) {
@@ -15,7 +14,6 @@ int main() {
     else if(ch == '0') {
         printf("Zero");
     }
-    
 
     return 0;
 }

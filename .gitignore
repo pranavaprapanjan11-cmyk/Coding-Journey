@@ -1,51 +1,21 @@
-# Executable files
 *.exe
 *.out
-*.app
-
-# Object files
-*.o
+*.dll
 *.obj
-*.ko
-*.so
-*.so.*
-*.a
-*.lib
-
-# Precompiled headers
-*.gch
-*.pch
-
-# Compiled files
+*.o
 *.class
 
-# IDE and editor files
-.vscode/
-.idea/
-*.swp
-*.swo
-*~
-.DS_Store
+*.pyc
+**__pycache__**/
 
-# Build directories
-bin/
-obj/
+node_modules/
+
 build/
 dist/
+bin/
 
-# Temporary files
-*.tmp
-*.bak
-*.backup
-temp/
+.vscode/
+.idea/
 
-# Output directories
-output/
-logs/
-
-# Session state
-.copilot/
-session-state/
-
-# JSON analysis files
-*.json
+.DS_Store
+Thumbs.db

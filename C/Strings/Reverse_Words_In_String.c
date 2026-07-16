@@ -2,14 +2,12 @@
 #include <string.h>
 
 int main() {
-    char str[100];    
+    char str[100];
 
-    
     fgets(str, sizeof(str), stdin);
 
     int len = strlen(str);
 
-   
     if(str[len - 1] == '\n') {
         str[len - 1] = '\0';
         len--;
@@ -19,12 +17,10 @@ int main() {
 
     for(int i = 0; i <= len; i++) {
 
-       
         if(str[i] == ' ' || str[i] == '\0') {
 
-            int end = i - 1; 
+            int end = i - 1;
 
-            
             while(start < end) {
                 char temp = str[start];
                 str[start] = str[end];
@@ -33,7 +29,7 @@ int main() {
                 end--;
             }
 
-            start = i + 1;  
+            start = i + 1;
         }
     }
 

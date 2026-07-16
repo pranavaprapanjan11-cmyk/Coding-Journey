@@ -7,7 +7,6 @@ int main() {
     int temp = n;
     int square = n * n;
 
-    
     while (temp != 0) {
         digit = digit * 10;
         temp = temp / 10;

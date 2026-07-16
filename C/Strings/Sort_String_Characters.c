@@ -12,9 +12,9 @@ int main(){
                 str[i]=str[j];
                 str[j]=temp;
             }
-            
+
         }
-        
+
     }
     printf("%s",str);
 }

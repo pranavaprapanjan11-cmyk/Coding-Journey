@@ -8,5 +8,5 @@ int main(){
     for(int i=start;str[i]!='\0';i++){
         printf("%c",str[i]);
     }
-    
+
 }

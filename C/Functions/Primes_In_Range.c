@@ -3,10 +3,8 @@
 int main() {
     int start, end, i, j;
 
-   
     scanf("%d", &start);
 
-    
     scanf("%d", &end);
 
     for(i = start; i <= end; i++) {

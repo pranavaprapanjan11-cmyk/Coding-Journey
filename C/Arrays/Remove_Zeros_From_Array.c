@@ -10,9 +10,8 @@ int main() {
         scanf("%d", &arr[i]);
     }
 
-    int j = 0;   
+    int j = 0;
 
-    
     for(int i = 0; i < n; i++) {
         if(arr[i] != 0) {
             arr[j] = arr[i];
@@ -20,12 +19,10 @@ int main() {
         }
     }
 
-     
    for(int i = j; i < n; i++) {
         arr[i] = 0;
     }
 
-    
     for(int i = 0; i < n; i++) {
         printf("%d ", arr[i]);
     }

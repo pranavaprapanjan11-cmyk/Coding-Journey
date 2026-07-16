@@ -10,7 +10,7 @@ int main(){
     }
     else if(num3>num1&&num3>num2){
         printf("%d is greatest of all",num3);
-        
+
     }
     else{
         printf("all are equal");

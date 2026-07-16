@@ -15,7 +15,7 @@ int main(){
            start=i+1;
            end=i;
            for(int k=start;str[k]!='\0' && str[k]!='_';k++)
-           {       
+           {
                printf("%c",str[k]);
                end=k;
            }

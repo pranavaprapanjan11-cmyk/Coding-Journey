@@ -12,7 +12,7 @@ len= strlen(str);
             ||str[i]=='A'||str[i]=='E'||str[i]=='I'||str[i]=='O'||str[i]=='U'){
                count++;
             }
-           
+
     }
      printf("%d",count);
 }
